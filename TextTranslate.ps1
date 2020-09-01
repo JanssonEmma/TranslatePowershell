@@ -36,6 +36,7 @@ function TranslateQuestItem {
 
     $translation = TranslateField -translateText $translateText -Header $header -FromLang $fromLang -ToLang $toLang
 
+    #The translated text will be stored in this variable. If you don't want to it to be displayed, remove this line.
     Write-Host $translation
 }
 
