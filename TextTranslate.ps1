@@ -92,5 +92,5 @@ function TranslateField {
     } 
 }
 
-# Call Translate-Item and pass in params
+# Call TranslateQuestItem and pass in params
 TranslateQuestItem -translateText 'Das wurde von deutsch in englisch übersetzt.' -FromLang $fromLang -ToLang $toLang
