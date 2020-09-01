@@ -1,4 +1,4 @@
-Import-Module "$PSScriptRoot\setup.psm1"
+Import-Module "$PSScriptRoot\setup.ps1"
 function IssueCognitiveApiToken {
     
     # Headers required for issuing token
